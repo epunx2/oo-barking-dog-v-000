@@ -1,4 +1,12 @@
 # Your code goes here!
-class << 
-
+class Dog
+  def initialize(name)
+    @name=name
+  end
+  def name=(name)
+    @name=name
+  end
+  def name
+    @name
+  end
 end
